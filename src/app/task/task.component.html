@@ -1,0 +1,7 @@
+
+<table align="center">
+  <thead>
+      <td>Id</td><td>firstName</td><td>email</td><td>gender</td><td>phone</td>
+  </thead>
+  <tr *ngFor = 'let data of employee'><td>{{data.eid}}</td><td>{{data.name | uppercase}}</td><td>{{data.email}}</td><td>{{data.gender}}</td><td>{{data.phone}}</td></tr>
+</table>
